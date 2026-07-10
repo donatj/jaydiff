@@ -4,10 +4,15 @@ require (
 	github.com/fatih/color v1.7.0
 	github.com/gobwas/glob v0.2.3
 	github.com/jessevdk/go-flags v1.4.0
-	github.com/mattn/go-colorable v0.0.9 // indirect
-	github.com/mattn/go-isatty v0.0.4 // indirect
 	github.com/mb0/diff v0.0.0-20131118162322-d8d9a906c24d
-	golang.org/x/crypto v0.21.0
+	golang.org/x/crypto v0.52.0
 )
 
-go 1.10
+require (
+	github.com/mattn/go-colorable v0.0.9 // indirect
+	github.com/mattn/go-isatty v0.0.4 // indirect
+	golang.org/x/sys v0.45.0 // indirect
+	golang.org/x/term v0.43.0 // indirect
+)
+
+go 1.25.0
